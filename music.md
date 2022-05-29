@@ -24,11 +24,11 @@ medias:
 
   <br>
 
-  <ul style="margin: 0; padding: 0">
+  <ul class="inline-list">
     {%- for media in page.medias -%}
-      <li style="display: inline; margin: 1em; padding: 0;">
+      <li>
         <a href="{{media.url}}">
-          {{media.name}}
+          {{media.name | downcase}}
         </a>
       </li>
     {%- endfor -%}
