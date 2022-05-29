@@ -18,7 +18,7 @@ medias:
 ---
 
 <div style="text-align: center">
-  <img src="assets/traquejos-capa-500.jpg" width="500" height="500" style="max-width: 500px"/>
+  <img src="assets/traquejos-capa-500.jpg" width="500" style="max-width: 100%"/>
 
   <br>
 
