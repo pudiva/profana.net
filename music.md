@@ -2,7 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
+layout: page
+title: Music
+permalink: /music/
 
 medias:
   - url: https://music.apple.com/us/artist/ventura-profana/1484569973
@@ -18,7 +20,7 @@ medias:
 ---
 
 <div style="text-align: center">
-  <img src="assets/traquejos-capa-500.jpg" width="500" style="max-width: 100%"/>
+  <img src="/assets/traquejos-capa-500.jpg" width="500" style="max-width: 100%"/>
 
   <br>
 
