@@ -13,16 +13,38 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: ventura profana
+tagline: Site da pastora ventura profana
+email: venturaministerial@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Site da pastora ventura profana
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://profana.net" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: venturaprofana
+#github_username:  jekyll
+
+lang: pt-BR
+timezone: America/Sao_Paulo
+minima:
+  skin: dark
+  date_format: "%d/%m/%Y"
+  # ícones do rodapé
+  social_links:
+    #facebook: venturaprofana
+    instagram: venturaprofana
+    #youtube_channel: 
+    #youtube_channel_name: aprosmig
+    #whatsapp: '+5561969696969'
+    spotify: 5OtKmdYx2SsAzr6RjrwAip
+    deezer: 76040832
+
+# meta tags do jekyll-seo-tag
+social:
+  links:
+    - https://www.facebook.com/aprosmig
+    - https://www.instagram.com/venturaprofana
+    - https://open.spotify.com/artist/5OtKmdYx2SsAzr6RjrwAip
+    - https://deezer.page.link/76040832
 
 # Build settings
 markdown: kramdown
