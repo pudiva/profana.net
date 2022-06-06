@@ -18,3 +18,22 @@
     }
   }
 }
+
+.work-of-life-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1ex;
+  align-content: space-between;
+  align-items: flex-start;
+
+  > * {
+    width: calc((99.9% - 6ex)/7);
+
+    @include media-query($on-laptop) {
+      width: calc((99.9% - 4ex)/5);
+    }
+    @include media-query($on-palm) {
+      width: calc((99.9% - 2ex)/3);
+    }
+  }
+}
