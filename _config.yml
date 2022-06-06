@@ -18,8 +18,8 @@ tagline: Site da pastora ventura profana
 email: venturaministerial@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Site da pastora ventura profana
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://profana.net" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://pudiva.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: venturaprofana
 #github_username:  jekyll
 

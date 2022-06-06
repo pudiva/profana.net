@@ -89,5 +89,5 @@ images:
 
 <div class="work-of-life-flex">
 {%- for image in page.images -%}
-  <img src="/assets/work-of-life/{{image}}-w300.jpg">
+  <img src="{{ "/assets/work-of-life/" | append: image | append: "-w300.jpg" | relative_url }}">
 {%- endfor -%}

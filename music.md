@@ -20,14 +20,14 @@ medias:
 ---
 
 <div style="text-align: center">
-  <img src="/assets/traquejos-capa-500.jpg" width="500" style="max-width: 100%"/>
+  <img src="{{ "/assets/traquejos-capa-500.jpg" | relative_url }}" width="500" style="max-width: 100%"/>
 
   <br>
 
   <ul class="inline-list">
     {%- for media in page.medias -%}
       <li>
-        <a href="{{media.url}}">
+        <a href="{{ media.url }}">
           {{media.name | downcase}}
         </a>
       </li>
